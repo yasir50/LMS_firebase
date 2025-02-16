@@ -28,7 +28,7 @@ function Signup() {
           title: "Sign up Success!",
           icon: "success",
         });
-        navigate("/Login");
+        navigate("/");
       })
       .catch((err) => {
         console.log(err.message);
